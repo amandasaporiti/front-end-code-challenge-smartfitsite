@@ -51,5 +51,6 @@ export const GlobalStyles = createGlobalStyle`
   body {
     color: var(--dark-grey);
     background-color: white;
+    font-family: 'Gotham Book', sans-serif;
   }
 `
