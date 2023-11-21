@@ -53,4 +53,8 @@ export const GlobalStyles = createGlobalStyle`
     background-color: white;
     font-family: 'Gotham Book', sans-serif;
   }
+
+  button {
+    cursor: pointer;
+  }
 `
