@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const GymUnitsContainer = styled.main`
-  max-width: 1500px;
+  max-width: 1440px;
   width: 100%;
   margin: 80px auto;
   display: grid;
