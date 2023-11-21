@@ -1,7 +1,7 @@
 import { fountain, lockerRoom, mask, towel } from './items'
 import { IconsContainer, IconsLegendContainer, Legend } from './styles'
 
-export function IconsLegends() {
+export function IconsLegend() {
   return (
     <IconsLegendContainer>
       <IconsContainer>
@@ -44,7 +44,7 @@ export function IconsLegends() {
         <h2>Vestiários</h2>
         <div>
           {lockerRoom.map((item) => (
-            <Legend>
+            <Legend key={item.id}>
               <img src={item.icon} alt={item.alt} />
               <span>{item.recommendation}</span>
             </Legend>
