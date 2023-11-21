@@ -10,6 +10,7 @@ export const HeroContainer = styled.div`
   margin: 80px auto;
 
   div {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
